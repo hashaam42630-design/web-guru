@@ -6,62 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><i>Family Tree</i></h1> <img src="/asset/123.jpeg" alt="Sorry, the image is not available at a moment." height="100" width="100">
-    <ol type="I">
-        <li>Hashaam</li>
-        <p><i>The names of his sons:</i></p>
-        <ul type="square">
-            <li>Abdullah</li>
-            <li>Wajahat</li>
-            <li>Hassan</li>
-        </ul>
-        <li>Hasnain</li>
-        <li>Affan</li>
-    </ol>
-    <hr/>
-    <!--table-->
-    <table border="4">
-        <caption>Table no. 119</caption>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Contact</th>            
-        </tr>
-        <tr>
-            <td>Hashaam</td>
-            <td>19</td>
-            <td>0300*******</td>
-        </tr>
-        <tr>
-            <td>Hasnain</td>
-            <td>18</td>
-            <td>0310*******</td>
-        </tr>
-    </table>
-    <hr/>
-    <table border="4">
-        <caption>Table no. 120</caption>
-        <thead>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Contact</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Hashaam</td>
-                <td>19</td>
-                <td rowspan="2">0300*******</td>            
-            </tr>
-            <tr>
-                <td>Hasnain</td>
-                <td>18</td>               
-            </tr>
-        </tbody>
-        <tfoot>
-            <td>Affan</td>
-            <td>13</td>
-            <td>0300*******</td>
-        </tfoot>
-    </table>
+      <table border="2">
+    <thead>
+        <th colspan="4">&nbsp;</th>
+    </thead>
+    <tbody>
+<tr>
+    <td width="150" rowspan="2">&nbsp;</td>
+    <td><label for="username">Username: <input type="text" id="username"></label></td>
+    <td><label for="password">Password: <input type="password" id="password"></label></td>
+</tr>
+<tr>
+    
+    <td><label for="male">Male <input type="radio" name="gender" id="male"></label> <label for="female">Female <input type="radio" name="gender" id="female"></label></td>
+    <td><label for="birth"> Date of Birth <input type="datetime" id="birth"></label></td>
+</tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td colspan="4">&nbsp;</td>
+    </tr>
+</tfoot>
+ </table>
 </body>
 </html>
