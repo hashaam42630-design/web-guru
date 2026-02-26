@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: rgb(240, 178, 189);
+    height: 10vh;
+}
+.nav h1{
+float: left;
+line-height: 10vh;
+margin-left: 170px;
+font-size: 40px;
+}
+.nav ul{
+    float: right;
+    line-height: 10vh;
+    margin-right: 160px;
+}
+.nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover{
+    color: red;
+}
+.content{
+    background-color: rgb(211, 146, 157);
+    clear: both;
+    height: 70vh;
+}
+.footer{
+    background-color: rgb(218, 62, 62);
+    height: 20vh;
+}
+.nav ul li a:active{
+    color: rgb(184, 20, 184);
+}
+.nav ul li a:visited{
+    color: rgb(173, 0, 29);
+}
+.card1 , .card2{
+background-color: white;
+height: 150px;
+width: 150px;
+margin-top: 150px;
+box-shadow: 1px 2px 4px black;
+border-radius: 8px;
+}
+.card1{
+    margin-left: 156px;
+    
+    float: left;
+}
+.card2{
+    margin-right: 156px ;
+    float: right;
+}
